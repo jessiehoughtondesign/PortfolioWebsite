@@ -1,5 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import FeaturedProjects from './components/FeaturedProjects'
@@ -11,6 +12,7 @@ import PullRequestsProject from './components/PullRequestsProject'
 import About from './components/About'
 import AfterHours from './components/AfterHours'
 import Footer from './components/Footer'
+import Lighthouse from './components/Lighthouse';
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
         <Route path="/portfolio/pullrequests" element={<PullRequestsProject />} />
         <Route path="/about" element={<About />} />
         <Route path="/after-hours" element={<AfterHours />} />
+        <Route path="/lighthouse" element={<Lighthouse />} />
       </Routes>
       <Footer />
     </div>

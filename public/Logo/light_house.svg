@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="506" viewBox="0 0 296 506">
+  <g id="light_house" transform="translate(-812 -575)">
+    <path id="Path_223" data-name="Path 223" d="M100,0h88L296,417.121H0Z" transform="translate(812 663.879)" fill="#679b9b"/>
+    <path id="Path_225" data-name="Path 225" d="M72.82,121.961,204.1,68.14,262.515,292.6,0,417.121Z" transform="translate(812 663.879)" fill="#637373"/>
+    <path id="Path_233" data-name="Path 233" d="M40,0H53A34,34,0,0,1,87,34V89H0V40A40,40,0,0,1,40,0Z" transform="translate(912 575)" fill="#fff"/>
+  </g>
+</svg>
