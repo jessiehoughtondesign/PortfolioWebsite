@@ -6,6 +6,8 @@ import FeaturedProjects from './components/FeaturedProjects'
 import Portfolio from './components/Portfolio'
 import ProjectDetail from './components/ProjectDetail'
 import CommitMessageProject from './components/CommitMessageProject'
+import VisionProject from './components/VisionProject'
+import PullRequestsProject from './components/PullRequestsProject'
 import About from './components/About'
 import AfterHours from './components/AfterHours'
 import Footer from './components/Footer'
@@ -24,6 +26,8 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/portfolio/memories" element={<ProjectDetail />} />
         <Route path="/portfolio/commitmessage" element={<CommitMessageProject />} />
+        <Route path="/portfolio/vision" element={<VisionProject />} />
+        <Route path="/portfolio/pullrequests" element={<PullRequestsProject />} />
         <Route path="/about" element={<About />} />
         <Route path="/after-hours" element={<AfterHours />} />
       </Routes>

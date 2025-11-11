@@ -146,6 +146,8 @@ function Portfolio() {
             <Link key={project.id} to={`/portfolio/${
               project.id === 1 || project.id === 5 || project.id === 9 || project.id === 13 ? 'memories' : 
               project.id === 2 || project.id === 6 || project.id === 10 || project.id === 14 ? 'commitmessage' : 
+              project.id === 3 || project.id === 7 || project.id === 11 || project.id === 15 ? 'vision' : 
+              project.id === 4 || project.id === 8 || project.id === 12 || project.id === 16 ? 'pullrequests' : 
               project.id
             }`} className="project-card-link">
               <div className="project-card">

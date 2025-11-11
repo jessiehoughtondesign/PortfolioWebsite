@@ -128,8 +128,29 @@
   font-weight: 700;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+.project-testimonial {
+  font-size: 1.05rem;
+  color: #5a7475;
+  line-height: 1.8;
+  margin: 40px 0 0 0;
+  padding: 30px;
+  border-left: 4px solid #d4af7a;
+  background-color: rgba(212, 175, 122, 0.1);
+  font-style: italic;
+}
+
+.project-testimonial footer {
+  font-style: italic;
+  color: #5a7475;
+  margin-top: 15px;
+  display: block;
+  font-size: 0.95rem;
+}
+
+.project-testimonial strong {
+  color: #2c3e3f;
+  font-weight: 700;
+}
   .project-hero {
     padding: 60px 20px;
   }
