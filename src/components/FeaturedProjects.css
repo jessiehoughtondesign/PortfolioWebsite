@@ -23,6 +23,11 @@
   margin-bottom: 40px;
 }
 
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
