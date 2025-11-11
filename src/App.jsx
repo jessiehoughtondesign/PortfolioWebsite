@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import FeaturedProjects from './components/FeaturedProjects'
 import Portfolio from './components/Portfolio'
+import ProjectDetail from './components/ProjectDetail'
 import About from './components/About'
 import AfterHours from './components/AfterHours'
 import Footer from './components/Footer'
@@ -20,6 +21,7 @@ function App() {
           </>
         } />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio/memories" element={<ProjectDetail />} />
         <Route path="/about" element={<About />} />
         <Route path="/after-hours" element={<AfterHours />} />
       </Routes>
