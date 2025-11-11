@@ -143,7 +143,11 @@ function Portfolio() {
         
         <div className="projects-grid">
           {projects.map((project) => (
-            <Link key={project.id} to={`/portfolio/${project.id === 1 || project.id === 5 || project.id === 9 || project.id === 13 ? 'memories' : project.id}`} className="project-card-link">
+            <Link key={project.id} to={`/portfolio/${
+              project.id === 1 || project.id === 5 || project.id === 9 || project.id === 13 ? 'memories' : 
+              project.id === 2 || project.id === 6 || project.id === 10 || project.id === 14 ? 'commitmessage' : 
+              project.id
+            }`} className="project-card-link">
               <div className="project-card">
                 <div className="project-image">
                   <img src={project.image} alt={project.title} />

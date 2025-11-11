@@ -44,7 +44,7 @@ function FeaturedProjects() {
         
         <div className="projects-grid">
           {projects.map((project) => (
-            <Link key={project.id} to={`/portfolio/${project.id === 1 ? 'memories' : project.id}`} className="project-card-link">
+            <Link key={project.id} to={`/portfolio/${project.id === 1 ? 'memories' : project.id === 2 ? 'commitmessage' : project.id}`} className="project-card-link">
               <div className="project-card">
                 <div className="project-image">
                   <img src={project.image} alt={project.title} />
