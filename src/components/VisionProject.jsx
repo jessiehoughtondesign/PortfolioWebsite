@@ -9,6 +9,9 @@ function VisionProject() {
           <h1 className="project-hero-title">A picture is worth a thousand words</h1>
           <p className="project-hero-subtitle">Enabling brand new workflows with image context</p>
         </div>
+        <div className="project-hero-image">
+          <img src="/Vision/VisionHero.png" alt="Vision Hero" />
+        </div>
       </section>
 
       {/* Overview Section */}

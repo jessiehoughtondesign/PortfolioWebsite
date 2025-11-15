@@ -7,10 +7,10 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">Hi, I'm Jessie</h1>
-          <p className="hero-subtitle">Product Designer & UX Specialist</p>
+          {/* <p className="hero-subtitle">Product Designer & UX Specialist</p> */}
           <p className="hero-description">
-            I design thoughtful, user-centered experiences that solve real problems.
-            Specializing in product design, interaction design, and design systems.
+            I'm a modern maker bringing ideas to life 
+            with UX design, product sense, and software development
           </p>
           <div className="hero-buttons">
             <Link to="/portfolio" className="btn btn-primary">View My Work</Link>

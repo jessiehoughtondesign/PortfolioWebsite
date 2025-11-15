@@ -1,7 +1,6 @@
 .hero {
   background: linear-gradient(135deg, #2c3e3f 0%, #3d5157 100%);
-  padding: 100px 20px;
-  min-height: 600px;
+  padding: 40px;
   display: flex;
   align-items: center;
 }
@@ -87,7 +86,7 @@
 }
 
 .hero-image-placeholder {
-  width: 100%;
+  width: 80%;
   aspect-ratio: 1;
   background-color: rgba(168, 216, 216, 0.2);
   border-radius: 8px;

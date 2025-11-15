@@ -9,6 +9,9 @@ function CommitMessageProject() {
           <h1 className="project-hero-title">Making Git feel effortless with AI</h1>
           <p className="project-hero-subtitle">Generating commit messages, so you don't have to</p>
         </div>
+        <div className="project-hero-image">
+          <img src="/Commit/CommitMessageHero.png" alt="Commit Message Hero" />
+        </div>
       </section>
 
       {/* Overview Section */}

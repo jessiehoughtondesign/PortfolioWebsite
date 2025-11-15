@@ -6,12 +6,13 @@
 /* Hero Section */
 .project-hero {
   background: linear-gradient(135deg, #e8d5a6 0%, #a8d8d8 100%);
-  padding: 100px 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
 }
 
 .project-hero-container {
   max-width: 1000px;
-  margin: 0 auto;
 }
 
 .project-hero-title {
@@ -35,9 +36,25 @@
   color: #5a7475;
 }
 
+.project-hero-image {
+  background-color: rgba(168, 216, 216, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* Content Sections */
 .project-section {
-  padding: 80px 20px;
+  padding: 40px;
   background-color: #e8d5a6;
 }
 
@@ -96,7 +113,6 @@
   font-style: italic;
   border-bottom: 3px solid #d4af7a;
   padding-bottom: 15px;
-}
   list-style: none;
   padding: 0;
   margin: 0 0 30px 0;
@@ -109,18 +125,7 @@
   font-size: 1.05rem;
   color: #5a7475;
   line-height: 1.7;
-  padding-left: 30px;
-  position: relative;
-  margin: 0;
-}
-
-.project-list li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: #2c3e3f;
-  font-weight: bold;
-  font-size: 1.2rem;
+  margin-left: 40px;
 }
 
 .project-list strong {
@@ -151,43 +156,13 @@
   color: #2c3e3f;
   font-weight: 700;
 }
-  .project-hero {
-    padding: 60px 20px;
-  }
 
-  .project-hero-title {
-    font-size: 2.5rem;
-  }
-
-  .project-hero-subtitle {
-    font-size: 1.1rem;
-  }
-
-  .project-section {
-    padding: 60px 20px;
-  }
-
-  .project-section-title {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-
-  .project-subsection-title {
-    font-size: 1.15rem;
-  }
-
-  .project-text {
-    font-size: 1rem;
-  }
-
-  .project-list li {
-    font-size: 1rem;
-  }
-}
 
 @media (max-width: 480px) {
   .project-hero {
     padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
   }
 
   .project-hero-title {
@@ -195,7 +170,7 @@
   }
 
   .project-section {
-    padding: 40px 15px;
+    padding: 40px;
   }
 
   .project-section-title {
@@ -212,6 +187,5 @@
 
   .project-list li {
     font-size: 0.95rem;
-    padding-left: 25px;
   }
 }

@@ -9,6 +9,9 @@ function PullRequestsProject() {
           <h1 className="project-hero-title">I can do every step of my workflow in VS</h1>
           <p className="project-hero-subtitle">Keeping developers in the flow with Pull Requests in their IDE</p>
         </div>
+        <div className="project-hero-image">
+          <img src="/PullRequests/PullRequestHero.png" alt="Pull Requests Hero" />
+        </div>
       </section>
 
       {/* Overview Section */}

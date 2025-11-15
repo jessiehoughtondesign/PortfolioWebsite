@@ -9,6 +9,9 @@ function ProjectDetail() {
           <h1 className="project-hero-title">Copilot Chat, can you remember...?</h1>
           <p className="project-hero-subtitle">Adding memories to customize <em>while you chat</em></p>
         </div>
+        <div className="project-hero-image">
+          <img src="/Memories/MemoriesHero.png" alt="Copilot Chat Memories Hero" />
+        </div>
       </section>
 
       {/* Overview Section */}

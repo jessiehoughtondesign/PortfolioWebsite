@@ -1,6 +1,6 @@
 .portfolio {
   background-color: #a8d8d8;
-  padding: 80px 20px;
+  padding: 40px;
   min-height: 100vh;
 }
 
@@ -34,7 +34,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  margin-bottom: 40px;
 }
 
 .project-card-link {

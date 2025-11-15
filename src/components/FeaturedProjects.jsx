@@ -9,7 +9,7 @@ function FeaturedProjects() {
       role: "Product Design",
       company: "Visual Studio Copilot Chat",
       description: "Adding memories to customize while you chat",
-      image: "/project-1.jpg"
+      image: "/Memories/MemoriesHero.png"
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ function FeaturedProjects() {
       role: "PM and Co-Design",
       company: "Visual Studio Version Control",
       description: "Generating commit messages, so you don't have to",
-      image: "/project-2.jpg"
+      image: "/Commit/CommitMessageHero.png"
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ function FeaturedProjects() {
       role: "PM and Design",
       company: "Visual Studio Copilot Chat",
       description: "Enabling brand new workflows with image context",
-      image: "/project-3.jpg"
+      image: "/Vision/VisionHero.png"
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ function FeaturedProjects() {
       role: "PM and Co-Design",
       company: "Visual Studio Version Control",
       description: "Keeping developers in the flow with PRs in their IDE",
-      image: "/project-4.jpg"
+      image: "/PullRequests/PullRequestHero.png"
     }
   ];
 
