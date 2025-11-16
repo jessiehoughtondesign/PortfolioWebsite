@@ -19,16 +19,16 @@ color scheme
 /* version for mobile */
 .navigation_circles {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.80);
+    /* background-color: rgba(255, 255, 255, 0.80); */
     border-radius: 50%;
-    color: #ffffff;
+    /* color: #ffffff; */
     width: 200px;
     height: 200px;
 }
 
 .navigation_circles h3 {
     padding: 80px 0px 0px 0px;
-    color: #000000;
+    /* color: #000000; */
     font-weight: 400;
     font-size: 1.5rem;
 }
@@ -61,7 +61,7 @@ color scheme
 
     /* version for desktop */
     .lighthouse-bg {
-        background-color: #ffeadb;
+        /* background-color: #ffeadb; */
         height: 12em;
     }
 
@@ -160,12 +160,4 @@ color scheme
         z-index: 10;
     }
       
-}
-
-.card-header {
-    background: rgba(255, 255, 255, 0.80);
-}
-
-.card-body {
-    background-color: #ffeadb;
 }

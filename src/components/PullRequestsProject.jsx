@@ -4,24 +4,26 @@ function PullRequestsProject() {
   return (
     <div className="project-detail">
       {/* Hero Section */}
-      <section className="project-hero">
-        <div className="project-hero-container">
-          <h1 className="project-hero-title">I can do every step of my workflow in VS</h1>
-          <p className="project-hero-subtitle">Keeping developers in the flow with Pull Requests in their IDE</p>
-        </div>
-        <div className="project-hero-image">
-          <img src="/PullRequests/PullRequestHero.png" alt="Pull Requests Hero" />
+      <section className="container">
+        <div className="text-and-image">
+          <div className="project-hero-container">
+            <h1 className="project-hero-title">I can do my entire workflow in VS</h1>
+            <p className="project-hero-subtitle">Keeping developers in the flow with Pull Requests in their IDE</p>
+          </div>
+          <div className="image-frame">
+            <img src="/PullRequests/PullRequestHero.png" alt="Pull Requests Hero" />
+          </div>
         </div>
       </section>
 
       {/* Overview Section */}
-      <section className="project-section">
+      <section className="container">
         <div className="project-container">
           <h2 className="project-section-title">Overview</h2>
           <p className="project-text">
             As Visual Studio 2022 embraced Git as the new default version control system, the previous tooling was overhauled and the previous pull request extensions for both GitHub and Azure DevOps were no longer compatible. Customer sentiments were strongly in favor of returning the functionality to the product, so I strategized a series of incremental releases with increasing customer value to deliver on this customer need and competitive feature set.
           </p>
-
+          <br />
           <h2 className="project-section-title">Role</h2>
           <p className="project-text">
             As the product lead, I:
@@ -37,13 +39,13 @@ function PullRequestsProject() {
       </section>
 
       {/* Challenge & Solution Section */}
-      <section className="project-section alt-bg">
+      <section className="container alt-bg">
         <div className="project-container">
           <h2 className="project-section-title">Challenge</h2>
-          <p className="project-challenge">How can we reduce context switching while working on Pull Requests?</p>
+          <p className="project-challenge-solution">How can we reduce context switching while working on Pull Requests?</p>
 
           <h2 className="project-section-title">Solution</h2>
-          <p className="project-solution-intro">Integrate the core Pull Request experience into Visual Studio</p>
+          <p className="project-challenge-solution">Integrate the core Pull Request experience into Visual Studio</p>
           <p className="project-text">
             We strategically integrated the most important parts of the pull request workflow in to Visual Studio. I had to justify and plan this carefully as the total volume of investment spanned several sprints worth of effort.
           </p>
@@ -51,13 +53,15 @@ function PullRequestsProject() {
       </section>
 
       {/* Process Section */}
-      <section className="project-section">
+      <section className="container">
         <div className="project-container">
           <h2 className="project-section-title">Process</h2>
           <p className="project-text">
             Carefully design each iteration of the release to feel connected and valuable
           </p>
-
+          <div className="image-frame">
+            <img src="/PullRequests/MindMap.png" alt="Mind map" />
+          </div>
           <h3 className="project-subsection-title">Identifying the main opportunities for reading the pull request experience</h3>
           <p className="project-text">
             To better understand the priority of pull requests against our other top-voted feedback tickets in version control, I did a mix of qualitative (interviews, forum feedback) and quantitative (in-product surveys, 2,000+ responses) research.
@@ -70,7 +74,14 @@ function PullRequestsProject() {
               An interactive mind mapping exercise helped me better understand the exact places in their existing workflow where they suffered from context switching. We also identified the best opportunities for improvement (in green) which further reinforced create pull requests.
             </li>
           </ul>
-
+          <div className="text-and-image">
+            <div className="image-frame">
+              <img src="/PullRequests/AuthorFlow.png" alt="Author Flow" />
+            </div>
+            <div className="image-frame">
+              <img src="/PullRequests/AuthorFlow.png" alt="Reviewer Flow" />
+            </div>
+          </div>
           <h3 className="project-subsection-title">Breaking the experience down into an author flow and reviewer flow</h3>
           <p className="project-text">
             From the initial research and dogfooding, I developed problem hypotheses which I validated in follow-up surveys and interviews.
@@ -92,7 +103,14 @@ function PullRequestsProject() {
               For example, users had extreme work-arounds like having "separate branches when reviewing, so we keep that in mind"
             </li>
           </ul>
-
+          <div className="text-and-image">
+            <div className="image-frame">
+              <img src="/PullRequests/AlternativeNotes.png" alt="Notes" />
+            </div>
+            <div className="image-frame">
+              <img src="/PullRequests/Alternatives.png" alt="Alternatives" />
+            </div>
+          </div>
           <h3 className="project-subsection-title">Building from the past and constantly improving</h3>
           <p className="project-text">
             Translating these requirements into visuals, my design partner and I took inspiration from competitors and the previous experience. We conducted usability testing to refine the experience, leveraging direct user feedback to shape final designs. Feedback showed:
@@ -110,7 +128,7 @@ function PullRequestsProject() {
       </section>
 
       {/* Outcome Section */}
-      <section className="project-section alt-bg">
+      <section className="container alt-bg">
         <div className="project-container">
           <h2 className="project-section-title">Outcome and Impact</h2>
           <p className="project-text">
@@ -127,7 +145,7 @@ function PullRequestsProject() {
             <li>High user satisfaction and positive reception from the developer community</li>
             <li>Paved the pathway for AI features that fit into the pull request workflows like controlling agentic flows and getting AI comments</li>
           </ul>
-
+          <br />
           <h2 className="project-section-title">Lessons Learned</h2>
           <p className="project-text">
             Leverage research to prioritize amongst complexity

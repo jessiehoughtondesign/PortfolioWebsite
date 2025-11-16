@@ -4,24 +4,26 @@ function VisionProject() {
   return (
     <div className="project-detail">
       {/* Hero Section */}
-      <section className="project-hero">
-        <div className="project-hero-container">
-          <h1 className="project-hero-title">A picture is worth a thousand words</h1>
-          <p className="project-hero-subtitle">Enabling brand new workflows with image context</p>
-        </div>
-        <div className="project-hero-image">
-          <img src="/Vision/VisionHero.png" alt="Vision Hero" />
+      <section className="container">
+        <div className="text-and-image">
+          <div className="project-hero-container">
+            <h1 className="project-hero-title">A picture is worth a thousand words</h1>
+            <p className="project-hero-subtitle">Enabling brand new workflows with image context</p>
+          </div>
+          <div className="image-frame">
+            <img src="/Vision/VisionHero.png" alt="Vision Hero" />
+          </div>
         </div>
       </section>
 
       {/* Overview Section */}
-      <section className="project-section">
+      <section className="container">
         <div className="project-container">
           <h2 className="project-section-title">Overview</h2>
           <p className="project-text">
             As LLM capabilities expanded, we had opportunities to envision how developers may be able to leverage context such as images, videos, and audio to get better responses from their AI tools while writing code. I enabled Vision capabilities, opening up workflows for front-end developers to iterate more quickly and for maintainers to diagnose visual bugs and errors.
           </p>
-
+          <br />
           <h2 className="project-section-title">Role</h2>
           <p className="project-text">
             As the product and design lead, I:
@@ -36,13 +38,13 @@ function VisionProject() {
       </section>
 
       {/* Challenge & Solution Section */}
-      <section className="project-section alt-bg">
+      <section className="container alt-bg">
         <div className="project-container">
           <h2 className="project-section-title">Challenge</h2>
-          <p className="project-challenge">How can we reimagine prompting, for front-end developers?</p>
+          <p className="project-challenge-solution">How can we reimagine prompting, for front-end developers?</p>
 
           <h2 className="project-section-title">Solution</h2>
-          <p className="project-solution-intro">Allow users to leverage images as context in Copilot Chat</p>
+          <p className="project-challenge-solution">Allow users to leverage images as context in Copilot Chat</p>
           <p className="project-text">
             I enabled Vision capabilities in Visual Studio GitHub Copilot Chat, opening up workflows for font-end developers to iterate more quickly and for maintainers to diagnose visual bugs and errors.
           </p>
@@ -50,13 +52,15 @@ function VisionProject() {
       </section>
 
       {/* Process Section */}
-      <section className="project-section">
+      <section className="container">
         <div className="project-container">
           <h2 className="project-section-title">Process</h2>
           <p className="project-text">
             Designed for the "golden scenario" to maximize speed and flexibility, and partnered across organizational barriers to ensure a consistent experience and responsible rollout
           </p>
-
+          <div className="image-frame">
+            <img src="/Vision/VisionProcess.png" alt="Vision Hero" />
+          </div>
           <p className="project-text">
             I identified the golden scenarios and cohorts, validated early concepts, and scoped designs to align with user expectations and identify a feasible MVP
           </p>
@@ -72,7 +76,7 @@ function VisionProject() {
               <strong>Refining our MVP approach:</strong> Introduced the basic functionality first—getting users comfortable with multi-modal AI interactions before expanding.
             </li>
           </ul>
-
+          <br />
           <p className="project-text">
             I created high-fidelity UX flows, included variants to address technical constraints the first version, and tuned the error state text
           </p>
@@ -88,7 +92,7 @@ function VisionProject() {
               <strong>Iterating on messaging & UI clarity:</strong> Worked with content designers to ensure clear guidance on how image inputs differed from standard chat interactions
             </li>
           </ul>
-
+          <br />
           <p className="project-text">
             I promoted consistency with our VS family and ensured evaluations covered the most important cases.
           </p>
@@ -108,7 +112,7 @@ function VisionProject() {
       </section>
 
       {/* Outcome Section */}
-      <section className="project-section alt-bg">
+      <section className="container alt-bg">
         <div className="project-container">
           <h2 className="project-section-title">Outcome and Impact</h2>
           <p className="project-text">
@@ -130,7 +134,7 @@ function VisionProject() {
               <strong>Validating foundational user behaviors:</strong> Allowed the team to evolve this feature into a more seamless, native experience in subsequent updates.
             </li>
           </ul>
-
+          <br />
           <h2 className="project-section-title">Lessons Learned</h2>
           <p className="project-text">
             Leverage natural entry points and iterate quickly

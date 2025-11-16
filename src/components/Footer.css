@@ -1,6 +1,5 @@
 .footer {
   background-color: #a8d8d8;
-  padding: 20px;
   border-top: 1px solid rgba(44, 62, 63, 0.1);
 }
 
@@ -10,11 +9,6 @@
 
 .footer-content {
   text-align: center;
-}
-
-.contact-item {
-  font-size: 1rem;
-  color: #2c3e3f;
 }
 
 .contact-item a {
@@ -36,36 +30,8 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .footer {
-    padding: 40px 20px;
-  }
-
-  .footer-name {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-
   .contact-item {
     font-size: 0.9rem;
   }
-
-  .separator {
-    display: inline;
-    margin: 0 5px;
-  }
 }
 
-@media (max-width: 480px) {
-  .footer {
-    padding: 20px;
-  }
-
-  .footer-name {
-    font-size: 1.5rem;
-  }
-
-  .contact-item {
-    font-size: 0.85rem;
-  }
-
-}

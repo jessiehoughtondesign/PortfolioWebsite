@@ -1,26 +1,7 @@
-.after-hours {
-  background: linear-gradient(135deg, #e8d5a6 0%, #a8d8d8 100%);
-  min-height: 100vh;
-}
-
-.after-hours-header {
-  padding: 80px 20px 60px;
-  text-align: center;
-}
-
-.after-hours-title {
-  font-size: 4rem;
-  font-weight: 700;
-  color: #2c3e3f;
-  margin: 0;
-  font-family: 'Young Serif', serif;
-}
-
 .photos-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
-  padding: 0 20px 80px 20px;
   max-width: 1400px;
   margin: 0 auto;
 }

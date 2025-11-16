@@ -50,8 +50,8 @@ function AfterHours() {
   }, []);
 
   return (
-    <div className="after-hours">
-      <div className="after-hours-header">
+    <div className="container">
+      <div>
         <h1 className="after-hours-title">After Hours</h1>
       </div>
       

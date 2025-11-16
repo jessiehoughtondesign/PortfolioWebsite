@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import FeaturedProjects from './components/FeaturedProjects'
 import Portfolio from './components/Portfolio'
-import ProjectDetail from './components/ProjectDetail'
+import MemoriesProject from './components/MemoriesProject'
 import CommitMessageProject from './components/CommitMessageProject'
 import VisionProject from './components/VisionProject'
 import PullRequestsProject from './components/PullRequestsProject'
@@ -25,7 +25,7 @@ function App() {
           </>
         } />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/portfolio/memories" element={<ProjectDetail />} />
+        <Route path="/portfolio/memories" element={<MemoriesProject />} />
         <Route path="/portfolio/commitmessage" element={<CommitMessageProject />} />
         <Route path="/portfolio/vision" element={<VisionProject />} />
         <Route path="/portfolio/pullrequests" element={<PullRequestsProject />} />

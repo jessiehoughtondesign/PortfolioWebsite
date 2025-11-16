@@ -32,7 +32,7 @@ function FeaturedProjects() {
     },
     {
       id: 4,
-      title: "I can do every step of my workflow in VS",
+      title: "I can my entire workflow in VS",
       role: "PM and Co-Design",
       company: "Visual Studio Version Control",
       description: "Keeping developers in the flow with PRs in their IDE",
