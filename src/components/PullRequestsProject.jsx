@@ -1,5 +1,7 @@
 import './ProjectDetail.css';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function PullRequestsProject() {
   return (
     <div className="project-detail">
@@ -11,7 +13,7 @@ function PullRequestsProject() {
             <p className="project-hero-subtitle">Keeping developers in the flow with Pull Requests in their IDE</p>
           </div>
           <div className="image-frame">
-            <img src="/PullRequests/PullRequestHero.png" alt="Pull Requests Hero" />
+            <img src= {BASE_URL + "PullRequests/PullRequestHero.png"} alt="Pull Requests Hero" />
           </div>
         </div>
       </section>
@@ -60,7 +62,7 @@ function PullRequestsProject() {
             Carefully design each iteration of the release to feel connected and valuable
           </p>
           <div className="image-frame">
-            <img src="/PullRequests/MindMap.png" alt="Mind map" />
+            <img src={BASE_URL + "PullRequests/MindMap.png"} alt="Mind map" />
           </div>
           <h3 className="project-subsection-title">Identifying the main opportunities for reading the pull request experience</h3>
           <p className="project-text">
@@ -76,10 +78,10 @@ function PullRequestsProject() {
           </ul>
           <div className="text-and-image">
             <div className="image-frame">
-              <img src="/PullRequests/AuthorFlow.png" alt="Author Flow" />
+              <img src={BASE_URL + "PullRequests/AuthorFlow.png"} alt="Author Flow" />
             </div>
             <div className="image-frame">
-              <img src="/PullRequests/AuthorFlow.png" alt="Reviewer Flow" />
+              <img src={BASE_URL + "PullRequests/AuthorFlow.png"} alt="Reviewer Flow" />
             </div>
           </div>
           <h3 className="project-subsection-title">Breaking the experience down into an author flow and reviewer flow</h3>
@@ -105,10 +107,10 @@ function PullRequestsProject() {
           </ul>
           <div className="text-and-image">
             <div className="image-frame">
-              <img src="/PullRequests/AlternativeNotes.png" alt="Notes" />
+              <img src={BASE_URL + "PullRequests/AlternativeNotes.png"} alt="Notes" />
             </div>
             <div className="image-frame">
-              <img src="/PullRequests/Alternatives.png" alt="Alternatives" />
+              <img src={BASE_URL + "PullRequests/Alternatives.png"} alt="Alternatives" />
             </div>
           </div>
           <h3 className="project-subsection-title">Building from the past and constantly improving</h3>

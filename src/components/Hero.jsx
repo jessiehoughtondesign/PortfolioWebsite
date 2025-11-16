@@ -1,6 +1,8 @@
 import './Hero.css';
 import { Link } from 'react-router-dom';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function Hero() {
   return (
     <section className="container text-and-image">
@@ -19,7 +21,7 @@ function Hero() {
         {/* Image */}
         <div>
           <div className="image-frame">
-            <img src="/hero-image.jpg" alt="Jessie Houghton" />
+            <img src={BASE_URL + "hero-image.jpg"} alt="Jessie Houghton" />
           </div>
         </div>
     </section>

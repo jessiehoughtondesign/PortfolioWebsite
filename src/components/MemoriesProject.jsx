@@ -1,5 +1,7 @@
 import './ProjectDetail.css';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function MemoriesProject() {
   return (
     <div className="project-detail">
@@ -11,7 +13,7 @@ function MemoriesProject() {
             <p className="project-hero-subtitle">Adding memories to customize <em>while you chat</em></p>
           </div>
           <div className="image-frame">
-            <img src="/Memories/MemoriesHero.png" alt="Copilot Chat Memories Hero" />
+            <img src={BASE_URL + "Memories/MemoriesHero.png"} alt="Copilot Chat Memories Hero" />
           </div>
         </div>
       </section>

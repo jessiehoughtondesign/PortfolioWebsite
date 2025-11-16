@@ -1,5 +1,7 @@
 import './ProjectDetail.css';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function VisionProject() {
   return (
     <div className="project-detail">
@@ -11,7 +13,7 @@ function VisionProject() {
             <p className="project-hero-subtitle">Enabling brand new workflows with image context</p>
           </div>
           <div className="image-frame">
-            <img src="/Vision/VisionHero.png" alt="Vision Hero" />
+            <img src={BASE_URL + "Vision/VisionHero.png"} alt="Vision Hero" />
           </div>
         </div>
       </section>
@@ -59,7 +61,7 @@ function VisionProject() {
             Designed for the "golden scenario" to maximize speed and flexibility, and partnered across organizational barriers to ensure a consistent experience and responsible rollout
           </p>
           <div className="image-frame">
-            <img src="/Vision/VisionProcess.png" alt="Vision Hero" />
+            <img src={BASE_URL + "Vision/VisionProcess.png"} alt="Vision Hero" />
           </div>
           <p className="project-text">
             I identified the golden scenarios and cohorts, validated early concepts, and scoped designs to align with user expectations and identify a feasible MVP

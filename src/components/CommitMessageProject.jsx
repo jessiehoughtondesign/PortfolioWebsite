@@ -1,5 +1,7 @@
 import './ProjectDetail.css';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function CommitMessageProject() {
   return (
     <div className="project-detail">
@@ -11,7 +13,7 @@ function CommitMessageProject() {
             <p className="project-hero-subtitle">Generating commit messages, so you don't have to</p>
           </div>
           <div className="image-frame">
-            <img src="/Commit/CommitMessageHeroResized.png" alt="Commit Message Hero" />
+            <img src={BASE_URL + "Commit/CommitMessageHeroResized.png"} alt="Commit Message Hero" />
           </div>
         </div>
       </section>
@@ -93,7 +95,7 @@ function CommitMessageProject() {
             </ul>
           </div>
           <div className="image-frame">
-            <img src="/Commit/CustomizationOptions.png" alt="Commit Message Hero" />
+            <img src= {BASE_URL + "Commit/CustomizationOptions.png"} alt="Commit Message Hero" />
           </div>
         </div>
       </section>

@@ -1,6 +1,8 @@
 import './FeaturedProjects.css';
 import { Link } from 'react-router-dom';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function FeaturedProjects() {
   const projects = [
     {
@@ -9,7 +11,7 @@ function FeaturedProjects() {
       role: "Product Design",
       company: "Visual Studio Copilot Chat",
       description: "Adding memories to customize while you chat",
-      image: "/Memories/MemoriesHero.png",
+      image: BASE_URL + "Memories/MemoriesHero.png",
       page: "memories"
     },
     {
@@ -18,7 +20,7 @@ function FeaturedProjects() {
       role: "PM and Co-Design",
       company: "Visual Studio Version Control",
       description: "Generating commit messages, so you don't have to",
-      image: "/Commit/CommitMessageHero.png",
+      image: BASE_URL + "Commit/CommitMessageHero.png",
       page: "commitmessage"
     },
     {
@@ -27,7 +29,7 @@ function FeaturedProjects() {
       role: "PM and Design",
       company: "Visual Studio Copilot Chat",
       description: "Enabling brand new workflows with image context",
-      image: "/Vision/VisionHero.png",
+      image: BASE_URL + "Vision/VisionHero.png",
       page: "vision"
     },
     {
@@ -36,7 +38,7 @@ function FeaturedProjects() {
       role: "PM and Co-Design",
       company: "Visual Studio Version Control",
       description: "Keeping developers in the flow with PRs in their IDE",
-      image: "/PullRequests/PullRequestHero.png",
+      image: BASE_URL + "PullRequests/PullRequestHero.png",
       page: "pullrequests"
     }
   ];

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Lighthouse.css";
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 const Lighthouse = () => {
 const handleMouseMove = (event) => {
     const triangle = document.querySelector(".triangle");
@@ -50,12 +52,12 @@ return (
                         <div className="circle-size circle-position deg270">
                             <picture>
                                 <source media="(min-width:480px)" srcSet="/Logo/logo@2x.png" />
-                                <img alt="logo image" src="/Logo/logo.png" width={200} className="home_icon" />
+                                <img alt="logo image" src={BASE_URL + "Logo/logo.png"} width={200} className="home_icon" />
                             </picture>
                         </div>
                         <div className="circle-position d-none d-sm-inline">
                             <div className="circle-size">
-                                <img alt="logo" src="/Logo/light_house.svg" />
+                                <img alt="logo" src={BASE_URL + "Logo/light_house.svg"} />
                             </div>
                             <div className="triangle"></div>
                         </div>

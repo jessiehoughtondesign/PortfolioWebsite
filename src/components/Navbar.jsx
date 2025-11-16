@@ -1,12 +1,14 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-brand">
-          <img src="/Logo/logo.png" alt="Jessie Houghton" className="navbar-logo" />
+          <img src={BASE_URL + "Logo/logo.png"} alt="Jessie Houghton" className="navbar-logo" />
           <span className="navbar-brand-text">Jessie Houghton Design</span>
         </Link>
         <ul className="navbar-menu">

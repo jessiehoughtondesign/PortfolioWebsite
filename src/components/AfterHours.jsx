@@ -1,6 +1,8 @@
 import './AfterHours.css';
 import { useState, useEffect } from 'react';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 function AfterHours() {
   const [photos, setPhotos] = useState([]);
 
@@ -42,7 +44,7 @@ function AfterHours() {
       })
       .map((file, index) => ({
         id: index + 1,
-        image: `/Art/${file}`,
+        image: BASE_URL + `Art/${file}`,
         alt: `Art piece ${index + 1}`
       }));
 
