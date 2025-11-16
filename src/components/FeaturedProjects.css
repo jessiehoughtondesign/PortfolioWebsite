@@ -1,31 +1,11 @@
-.featured-projects {
-  background-color: #a8d8d8;
-  padding: 80px 20px;
-}
-
-.featured-projects .container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .section-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  color: #2c3e3f;
-  margin-bottom: 60px;
-  font-family: 'Young Serif', serif;
+  margin-bottom: var(--spacing-sm);
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 40px;
-}
-
-.project-card-link {
-  text-decoration: none;
-  color: inherit;
+  gap: var(--spacing-md);
 }
 
 .project-card {
@@ -62,36 +42,17 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  color: #2c3e3f;
 }
 
-.project-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #2c3e3f;
-  margin: 0 0 15px 0;
-  font-family: 'Young Serif', serif;
+.project-content p {
+  font-size: 1rem;
   line-height: 1.3;
 }
 
-.project-role {
-  font-size: 0.95rem;
-  color: #2c3e3f;
-  font-weight: 600;
-  margin: 0 0 5px 0;
-}
-
 .project-company {
-  font-size: 0.9rem;
-  color: #5a7475;
   margin: 0 0 15px 0;
   font-style: italic;
-}
-
-.project-description {
-  font-size: 0.95rem;
-  color: #5a7475;
-  line-height: 1.5;
-  margin: 0;
 }
 
 /* Responsive Design */
@@ -99,32 +60,5 @@
   .projects-grid {
     grid-template-columns: 1fr;
     gap: 30px;
-  }
-
-  .section-title {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-  }
-
-  .project-title {
-    font-size: 1.4rem;
-  }
-
-  .featured-projects {
-    padding: 60px 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .section-title {
-    font-size: 2rem;
-  }
-
-  .project-content {
-    padding: 20px;
-  }
-
-  .featured-projects {
-    padding: 40px 15px;
   }
 }

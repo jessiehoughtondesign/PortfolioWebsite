@@ -4,44 +4,40 @@ function About() {
   return (
     <div className="about">
       {/* Hero Section */}
-      <section className="about-hero">
-        <div className="about-hero-container">
-          <div className="about-hero-content">
-            <h1 className="about-hero-title">Hey, I'm Jessie Houghton</h1>
-            <p className="about-hero-text">
-              I'm a product designer who empowers people with technology. If an idea can make your life easier, I want to bring it to life - while ensuring it's intuitive, beautiful, and accessible.
-            </p>
-            <p className="about-hero-text">
-              I love getting to the heart of problems. Tapping into my experience as a Microsoft product manager and Computer Science grad, my designs involve layered considerations for both strategic vision and technical feasibility. I bridge the gap from ambitious design to production-ready solutions, and I'm proficient at all layers of the process.
-            </p>
-            <p className="about-hero-text">
-              You may find me talking to customers, presenting at conferences, prototyping in Figma, or developing with CSharp. Outside of work, I you can find me enjoying the natural wonders of Seattle and other travel destinations via painting, backpacking or rockclimbing.
-            </p>
-          </div>
-          <div className="about-hero-image">
-            <img src="/about-hero.jpg" alt="Jessie Houghton" />
-          </div>
+      <section className="container text-and-image">
+        {/* Text */}
+        <div>
+          <h1>Welcome!</h1>
+          <p>
+            I'm a product designer who empowers. If an idea can make your life easier, I want to bring it to life - while ensuring it's intuitive, beautiful, and accessible.
+          </p>
+          <p>
+            I love getting to the heart of problems. Tapping into my experience as a Microsoft product manager and Computer Science grad, my designs involve layered considerations for both strategic vision and technical feasibility. I bridge the gap from ambitious design to production-ready solutions, and I'm proficient at all layers of the process.
+          </p>
+        </div>
+        {/* Image */}
+        <div className="image-frame">
+          <img src="/about-hero.jpg" alt="Jessie Houghton" />
         </div>
       </section>
 
       {/* Experience & Education Section */}
-      <section className="about-details">
+      <section className="container">
         <div className="about-details-container">
           <div className="about-column">
-            <h2 className="about-section-title">Work Experience</h2>
-            
+            <h2>Work Experience</h2>
             <div className="experience-item">
-              <h3 className="experience-company">Developer Division Product Teams</h3>
+              <h3>Developer Division Product Teams</h3>
               <p className="experience-location">Microsoft, Redmond, WA | 2020 - Present</p>
               <ul className="experience-list">
                 <li><strong>Visual Studio Product Manager</strong> | 2022 - Present</li>
                 <li><strong>ML.NET Project Manager Intern</strong> | 2021</li>
-                <li><strong>Visual Studio Software Engineer/Product Manager Intern</strong> | 2020</li>
+                <li><strong>Software Engineer/Product Manager Intern</strong> | 2020</li>
               </ul>
             </div>
 
             <div className="experience-item">
-              <h3 className="experience-company">University of Michigan</h3>
+              <h3>University of Michigan</h3>
               <p className="experience-location">Ann Arbor, MI | 2019 - 2022</p>
               <ul className="experience-list">
                 <li><strong>Lifelong Learning Lab Design and Programming Research Assistant</strong> | 2022</li>
@@ -53,6 +49,9 @@ function About() {
             <div className="experience-item">
               <h3 className="experience-company">entigenlogic™ (NLP and AI startup)</h3>
               <p className="experience-location">Schaumburg, IL | 2019</p>
+              <ul className="experience-list">
+                <li><strong>Software Engineer Intern</strong> | 2019</li>
+              </ul>
             </div>
           </div>
 
