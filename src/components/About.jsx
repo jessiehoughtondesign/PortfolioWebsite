@@ -4,23 +4,20 @@ function About() {
   return (
     <div className="about">
       {/* Hero Section */}
-      <section className="about-hero">
-        <div className="about-hero-container">
-          <div className="about-hero-content">
-            <h1 className="about-hero-title">Hey, I'm Jessie Houghton</h1>
-            <p className="about-hero-text">
-              I'm a product designer who empowers people with technology. If an idea can make your life easier, I want to bring it to life - while ensuring it's intuitive, beautiful, and accessible.
-            </p>
-            <p className="about-hero-text">
-              I love getting to the heart of problems. Tapping into my experience as a Microsoft product manager and Computer Science grad, my designs involve layered considerations for both strategic vision and technical feasibility. I bridge the gap from ambitious design to production-ready solutions, and I'm proficient at all layers of the process.
-            </p>
-            <p className="about-hero-text">
-              You may find me talking to customers, presenting at conferences, prototyping in Figma, or developing with CSharp. Outside of work, I you can find me enjoying the natural wonders of Seattle and other travel destinations via painting, backpacking or rockclimbing.
-            </p>
-          </div>
-          <div className="about-hero-image">
-            <img src="/about-hero.jpg" alt="Jessie Houghton" />
-          </div>
+      <section className="container text-and-image">
+        {/* Text */}
+        <div>
+          <h1 className="about-hero-title">Welcome!</h1>
+          <p>
+            I'm a product designer who empowers. If an idea can make your life easier, I want to bring it to life - while ensuring it's intuitive, beautiful, and accessible.
+          </p>
+          <p>
+            I love getting to the heart of problems. Tapping into my experience as a Microsoft product manager and Computer Science grad, my designs involve layered considerations for both strategic vision and technical feasibility. I bridge the gap from ambitious design to production-ready solutions, and I'm proficient at all layers of the process.
+          </p>
+        </div>
+        {/* Image */}
+        <div className="image-frame">
+          <img src="/about-hero.jpg" alt="Jessie Houghton" />
         </div>
       </section>
 
