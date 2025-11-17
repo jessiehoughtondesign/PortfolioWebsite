@@ -2,6 +2,7 @@
 .about-details-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
 }
 
 .about-column {

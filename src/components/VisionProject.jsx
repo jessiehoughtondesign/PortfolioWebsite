@@ -35,6 +35,7 @@ function VisionProject() {
             <li>Validated scenarios through user discovery interviews, testing assumptions about how developers wanted to use vision-based AI.</li>
             <li>Designed MVP user flows that minimized friction while accounting for technical constraints.</li>
             <li>Collaborated across teams to address partner dependencies and explore alternative solutions when initial plans were blocked.</li>
+            <li>Worked with two other designers with several engineering teammates.</li>
           </ul>
         </div>
       </section>

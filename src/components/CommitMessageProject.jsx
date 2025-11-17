@@ -35,6 +35,7 @@ function CommitMessageProject() {
             <li>Defined and validated the user experience through competitive benchmarking, user interviews, and telemetry analysis.</li>
             <li>Led UX iterations in partnership with designers, engineering, and content strategists to refine the commit message generation flow.</li>
             <li>Enhanced the experience with customization, ensuring flexibility while keeping interactions lightweight and intuitive.</li>
+            <li>Worked as the PM and co-designer with one engineering teammate.</li>
           </ul>
         </div>
       </section>

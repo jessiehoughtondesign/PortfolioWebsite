@@ -64,30 +64,30 @@ function MemoriesProject() {
           <br />
           <h3 className="project-subsection-title">Research</h3>
           <p className="project-text">
-            I investigated the competitive landscape and leveraged user testing to get the correct scope and user requirements
+            I investigated the competitive landscape and leveraged user testing to get the correct scope and user requirements.
           </p>
           <ul className="project-list">
             <li>
-              <strong>Benchmarking competitor concepts for memories:</strong> Noticed that competitors like Cursor, Windsurf, and Cline had divergent experiences, giving us more flexibility since we didn't have to follow an emerging industry standard or trend
+              <strong>Benchmarking competitor concepts for memories:</strong> Noticed that competitors like Cursor, Windsurf, and Cline had divergent experiences, giving us more flexibility since we didn't have to follow an emerging industry standard or trend.
             </li>
             <li>
-              <strong>User testing to land on scope and get enterprise requirements:</strong> Found that customers saw more value in getting project-level preferences saved rather than user-level preferences. Also, noted that enterprises demanded a high level of control since the feature would modify documentation on their behalf
+              <strong>User testing to land on scope and get enterprise requirements:</strong> Found that customers saw more value in getting project-level preferences saved rather than user-level preferences. Also, noted that enterprises demanded a high level of control since the feature would modify documentation on their behalf.
             </li>
           </ul>
           <br />
           <h3 className="project-subsection-title">Design & Development</h3>
           <p className="project-text">
-            I created variants on the UX flows and dialed in the language for how to introduce the feature with clarity, leaning heavily on engineering engagement and dogfooding to get feedback
+            I created variants on the UX flows and dialed in the language for how to introduce the feature with clarity, leaning heavily on engineering engagement and dogfooding to get feedback.
           </p>
           <ul className="project-list">
             <li>
               <strong>Creating the UX flows and a new component:</strong> Identified a gap in our current chat components when creating the designs. I defined a new system message called the nudge UI which has an ephemeral state by works well for use case beyond the memories feature.
             </li>
             <li>
-              <strong>Iterating on string clarity:</strong> Worked with content designers to revise the memories text in response to confusion during usability testing
+              <strong>Iterating on string clarity:</strong> Worked with content designers to revise the memories text in response to confusion during usability testing.
             </li>
             <li>
-              Engaging engineering for dogfooding feedback: Since the engineering team uses the product to build the product, I tapped into the fast insights I can get from tight partnership.
+              <strong>Engaging engineering for dogfooding feedback:</strong> Since the engineering team uses the product to build the product, I tapped into the fast insights I can get from tight partnership.
             </li>
           </ul>
           <br />
@@ -97,10 +97,10 @@ function MemoriesProject() {
           </p>
           <ul className="project-list">
             <li>
-              <strong>Monitoring customer feedback:</strong> Considered new scope expansions to cover customer requests for connection to custom instructions and user-level project preferences
+              <strong>Monitoring customer feedback:</strong> Considered new scope expansions to cover customer requests for connection to custom instructions and user-level project preferences.
             </li>
             <li>
-              <strong>Running through key test scenarios and sharing feedback during development:</strong> I tested the repository on the development branch to provide early UX feedback and ensure follow through on the design specifications
+              <strong>Running through key test scenarios and sharing feedback during development:</strong> I tested the repository on the development branch to provide early UX feedback and ensure follow through on the design specifications.
             </li>
           </ul>
         </div>
@@ -111,7 +111,7 @@ function MemoriesProject() {
         <div className="project-container">
           <h2 className="project-section-title">Outcome and Impact</h2>
           <p className="project-text">
-            Enabled natural customization, set up learnings for future AI context management projects, and expanded the design system
+            Enabled natural customization, set up learnings for future AI context management projects, and expanded the design system.
           </p>
           <p className="project-text">
             Users are just starting to adopt the feature after its initial ship, but we've already received positive feedback on managing context.
@@ -135,13 +135,13 @@ function MemoriesProject() {
           </p>
           <ul className="project-list">
             <li>
-              <strong>AI is evolving rapidly so shipping to learn is a must:</strong> Some things in the AI space seem to solidify into industry standards, but not everything falls into that bucket. There's plenty of room for rapid iteration and true innovation as this paradigm continues to evolve. Additionally, newer models may change what is even possible
+              <strong>AI is evolving rapidly so shipping to learn is a must:</strong> Some things in the AI space seem to solidify into industry standards, but not everything falls into that bucket. There's plenty of room for rapid iteration and true innovation as this paradigm continues to evolve. Additionally, newer models may change what is even possible.
             </li>
             <li>
               <strong>Involving engineering early in the design process can help clarify technical challenges:</strong> Understanding constraints enables us to design more creatively.
             </li>
             <li>
-              <strong>Be willing to pivot:</strong> Assumptions can flip once a feature has actually shift and designing variants helps enable faster update loops
+              <strong>Be willing to pivot:</strong> Assumptions can flip once a feature has actually shift and designing variants helps enable faster update loops.
             </li>
           </ul>
         </div>

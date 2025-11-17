@@ -36,6 +36,7 @@ function PullRequestsProject() {
             <li>Conducted multi-modal user research to validate hypotheses and prioritize features</li>
             <li>Partnered with UX designer to create wireframes and prototypes</li>
             <li>Partnered with engineering to break down feature dependencies, ensuring smooth, iterative releases without disrupting existing workflows</li>
+            <li>Worked as the PM and co-designer with several engineering teammates</li>
           </ul>
         </div>
       </section>
@@ -73,7 +74,7 @@ function PullRequestsProject() {
               The rankings and verbatims reinforced the signal and revealed users wanted pull requests in Visual Studio to minimize context switching, leverage the power of the editor, and regain the functionality they missed from previous versions
             </li>
             <li>
-              An interactive mind mapping exercise helped me better understand the exact places in their existing workflow where they suffered from context switching. We also identified the best opportunities for improvement (in green) which further reinforced create pull requests.
+              An interactive mind mapping exercise helped me better understand the exact places in their existing workflow where they suffered from context switching. We also identified the best opportunities for improvement which further reinforced create pull requests.
             </li>
           </ul>
           <div className="text-and-image">
@@ -102,7 +103,7 @@ function PullRequestsProject() {
               In a customer journey map I visualized the flows for pull request authors and reviewers, identifying pain points, workarounds, and benchmarking against the competitor products. This proved helpful in communicating the opportunities and understanding the entire complexity of the feature end to end.
             </li>
             <li>
-              For example, users had extreme work-arounds like having "separate branches when reviewing, so we keep that in mind"
+              For example, users had extreme work-arounds like having "separate branches when reviewing", so we kept that in mind
             </li>
           </ul>
           <div className="text-and-image">
@@ -122,10 +123,6 @@ function PullRequestsProject() {
             <li>Having the code changes in the view was very important</li>
             <li>A notification entry point was a great opportunity to encourage more adoption of the feature</li>
           </ul>
-
-          <p className="project-text">
-            I created high-fidelity UX flows, included variants to address technical constraints the first version, and tuned the error state text
-          </p>
         </div>
       </section>
 

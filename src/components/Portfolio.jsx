@@ -34,7 +34,7 @@ function Portfolio() {
     },
     {
       id: 4,
-      title: "I can my entire workflow in VS",
+      title: "I can do my entire workflow in VS",
       role: "PM and Co-Design",
       company: "Visual Studio Version Control",
       description: "Keeping developers in the flow with PRs in their IDE",
